@@ -33,6 +33,5 @@ app.post('/profile-upload-multiple', upload.array('profile-files', 12), function
   }
   return res.send(response)
 })
-   
 
 app.listen(port,() => console.log(`Server running on port ${port}!`))
